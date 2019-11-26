@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<title>Title</title>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+<body style="background-color:dimgray;">
+
+<h1 style="color:gainsboro;">-Aidan's Microbit</h1>
+    
+<div2 class="dropdown">
+  <span style="font-style: bold;">-Microbit Image-</span>
+  <div2 class="dropdown-content">
+  <img src="/Assets/Screenshot.PNG" alt="Microbit" width="500" height="400">
+  </div2>
+</div2>
+    
+<div3 style="display:inline-block;margin-bottom: 10px;"></div3>
+    
+<g id="demo" style="display:none">First off, the variables: millig = "milligrams" but I couldn't use "mg" because it's already a variable in the acceleration function and it had to be separated in the code. angle = the angle that the micro:bit is tilted to. Now, the millig variable must start equal to the acceleration (which is equal to "mg(x)"). Once that has been set, the program continously runs the middle function, which states that the servo points to the opposite angle of the way the micro:bit is being tilted, so that it goes in the direction the user wants it to (it is NOT inverted). The first "High" and "Low" variables are the minimum and maximum tilt ranges that the micro:bit has. The second "High" and "Low" variables and the angles that the servos rotate through. The final string at the bottom is, in a way, reminding the servo to turn to whatever angle the micro:bit is tilted to, however the second and final functions pretty much run simultaneously.</g>
+
+<button type="button" onclick="document.getElementById('demo').style.display='block'">-How It Works-</button>
+
+<button type="button" onclick="document.getElementById('demo').style.display='none'">-Hide Info-</button>
+
+    
+<g id="demo2" style="display:none">I learned how to use variables to my advantage. The best example would be the "millig" variable and the "mg" variable, I needed a variable that meant "milligrams," but wasn't the same as "mg," so I came up with the "millig" variable and it worked out in the end.</g>
+
+<button type="button" onclick="document.getElementById('demo2').style.display='block'">-What I Learned-</button>
+
+<button type="button" onclick="document.getElementById('demo2').style.display='none'">-Hide Info-</button>
+    
+<style>
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+    
+<div9 style="display:inline-block;margin-bottom: 0px;"></div9>
+    
+<div3 style="display: block;margin-top: 20px;"></div3>
+    
+<div5>
+<f>--Thanks for visiting my page!--</f>
+    </div5>
+<script src="Scripts/scrypty.js">
+
+</script>   
+</body>
+</html>
